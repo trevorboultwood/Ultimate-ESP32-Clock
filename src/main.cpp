@@ -12,6 +12,24 @@
 // ----------------------------
 // Standard Libraries - Already Installed if you have ESP32 set up
 // ----------------------------
+
+
+// yawn ---- lets try and recover what we made, god damn it!
+
+
+
+// Wifi portal
+//merging time and text.
+//class that stores the time and in some instances the time changes to a block colour.
+
+
+
+//rotating cube
+//plasma
+//spiral
+//snake
+//caledoscope
+
 #include <Wire.h>
 #include <WiFi.h>
 #include <FastLED.h>
@@ -385,6 +403,14 @@ void setup()
   }
 
   */
+
+//Display a message about connecting
+
+
+//then disable the screen and try and connect
+
+//then reanable.
+
   WiFiManager wifiManager;
   if (!wifiManager.autoConnect("WiFiManagerAP", "password"))
   {
